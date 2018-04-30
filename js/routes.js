@@ -16,6 +16,21 @@ var routes = [
     url: './pages/seasons.html',
     name: 'seasons',
   },
+  {
+    path: '/season-2015/',
+    url: './pages/season-2015.html',
+    name: 'season-2015',
+  },
+  {
+    path: '/season-2014/',
+    url: './pages/season-2014.html',
+    name: 'season-2014',
+  },
+  {
+    path: '/season-2013/',
+    url: './pages/season-2013.html',
+    name: 'season-2013',
+  },
   // Right Panel pages
   {
     path: '/panel-right-1/',
