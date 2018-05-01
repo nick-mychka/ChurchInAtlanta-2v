@@ -143,3 +143,11 @@ li {
 .ios .var_03 .row .decoration {
 	border-radius: 7px;
 }
+
+
+.ios .media-list .item-title.my-item-title {
+	color: #2b2b33;
+	white-space: normal;
+	margin-bottom: 12px;
+	font-weight: 400;
+}
