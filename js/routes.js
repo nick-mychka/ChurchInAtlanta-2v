@@ -5,16 +5,151 @@ var routes = [
 		url: './index.html',
 		name: 'home',
 	},
+
+	
 	// About page
 	{
 		path: '/about/',
 		url: './pages/about.html',
 		name: 'about',
 	},
+
+	//fall 2015
 	{
-		path: '/seasons/',
-		url: './pages/seasons.html',
-		name: 'seasons',
+		path: '/msg-1-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-1-fall_15.html',
+		name: 'msg-1-fall_15',
+	},
+	{
+		path: '/msg-2-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-2-fall_15.html',
+		name: 'msg-2-fall_15',
+	},
+	{
+		path: '/msg-3-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-3-fall_15.html',
+		name: 'msg-3-fall_15',
+	},
+	{
+		path: '/msg-4-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-4-fall_15.html',
+		name: 'msg-4-fall_15',
+	},
+	{
+		path: '/msg-5-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-5-fall_15.html',
+		name: 'msg-5-fall_15',
+	},
+	{
+		path: '/msg-6-fall_15/',
+		url: './pages/2015/fall-2015/messages/msg-6-fall_15.html',
+		name: 'msg-6-fall_15',
+	},
+	//spr 2015
+	{
+		path: '/msg-1-spr_15/',
+		url: './pages/2015/spr-2015/messages/msg-1-spr_15.html',
+		name: 'msg-1-spr_15',
+	},
+	{
+		path: '/msg-2-spr_15/',
+		url: './pages/2015/spr-2015/messages/msg-2-spr_15.html',
+		name: 'msg-2-spr_15',
+	},
+	{
+		path: '/msg-3-spr_15/',
+		url: './pages/2015/spr-2015/messages/msg-3-spr_15.html',
+		name: 'msg-3-spr_15',
+	},
+	{
+		path: '/msg-4-spr_15/',
+		url: './pages/2015/spr-2015/messages/msg-4-spr_15.html',
+		name: 'msg-4-spr_15',
+	},
+	//fall 2014
+	{
+		path: '/msg-1-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-1-fall_14.html',
+		name: 'msg-1-fall_14',
+	},
+	{
+		path: '/msg-2-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-2-fall_14.html',
+		name: 'msg-2-fall_14',
+	},
+	{
+		path: '/msg-3-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-3-fall_14.html',
+		name: 'msg-3-fall_14',
+	},
+	{
+		path: '/msg-4-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-4-fall_14.html',
+		name: 'msg-4-fall_14',
+	},
+	{
+		path: '/msg-5-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-5-fall_14.html',
+		name: 'msg-5-fall_14',
+	},
+	{
+		path: '/msg-6-fall_14/',
+		url: './pages/2014/fall-2014/messages/msg-6-fall_14.html',
+		name: 'msg-6-fall_14',
+	},
+
+	//spr 2014
+	{
+		path: '/msg-1-spr_14/',
+		url: './pages/2014/spr-2014/messages/msg-1-spr_14.html',
+		name: 'msg-1-spr_14',
+	},
+	{
+		path: '/msg-2-spr_14/',
+		url: './pages/2014/spr-2014/messages/msg-2-spr_14.html',
+		name: 'msg-2-spr_14',
+	},
+	{
+		path: '/msg-3-spr_14/',
+		url: './pages/2014/spr-2014/messages/msg-3-spr_14.html',
+		name: 'msg-3-spr_14',
+	},
+	{
+		path: '/msg-4-spr_14/',
+		url: './pages/2014/spr-2014/messages/msg-4-spr_14.html',
+		name: 'msg-4-spr_14',
+	},
+
+	//fall 2013
+	{
+		path: '/msg-1-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-1-fall_13.html',
+		name: 'msg-1-fall_13',
+	},
+	{
+		path: '/msg-2-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-2-fall_13.html',
+		name: 'msg-2-fall_13',
+	},
+	{
+		path: '/msg-3-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-3-fall_13.html',
+		name: 'msg-3-fall_13',
+	},
+	{
+		path: '/msg-4-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-4-fall_13.html',
+		name: 'msg-4-fall_13',
+	},
+	{
+		path: '/msg-5-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-5-fall_13.html',
+		name: 'msg-5-fall_13',
+	},
+	{
+		path: '/msg-6-fall_13/',
+		url: './pages/2013/fall-2013/messages/msg-6-fall_13.html',
+		name: 'msg-6-fall_13',
 	},
 	/* Conference pages*/
 	{
@@ -24,12 +159,12 @@ var routes = [
 	},
 	{
 		path: '/season-2014/',
-		url: './pages/season-2014.html',
+		url: './pages/2014/season-2014.html',
 		name: 'season-2014',
 	},
 	{
 		path: '/season-2013/',
-		url: './pages/season-2013.html',
+		url: './pages/2013/season-2013.html',
 		name: 'season-2013',
 	},
 		// Message pages
@@ -38,7 +173,26 @@ var routes = [
 		url: './pages/2015/spr-2015/msg-s-2015.html',
 		name: 'msg-s-2015',
 	},
-
+	{
+		path: '/msg-f-2015/',
+		url: './pages/2015/fall-2015/msg-f-2015.html',
+		name: 'msg-f-2015',
+	},
+	{
+		path: '/msg-s-2014/',
+		url: './pages/2014/spr-2014/msg-s-2014.html',
+		name: 'msg-s-2014',
+	},
+	{
+		path: '/msg-f-2014/',
+		url: './pages/2014/fall-2014/msg-f-2014.html',
+		name: 'msg-f-2014',
+	},
+	{
+		path: '/msg-f-2013/',
+		url: './pages/2013/fall-2013/msg-f-2013.html',
+		name: 'msg-f-2013',
+	},
 
 
 

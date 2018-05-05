@@ -140,7 +140,7 @@ li {
 	padding: 100px 15px;
 }
 
-.ios .var_03 .row .decoration {
+.ios .var_03 .row.decoration {
 	border-radius: 7px;
 }
 
@@ -150,4 +150,17 @@ li {
 	white-space: normal;
 	margin-bottom: 12px;
 	font-weight: 400;
+}
+
+.ios .paddingForMessage {
+	padding: 10px 0 0 50px;
+}
+
+.ios .list .nomber-message {
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+.padd-msg {
+	padding: 0 10px 0 30px;
 }
