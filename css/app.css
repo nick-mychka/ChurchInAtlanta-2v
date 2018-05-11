@@ -67,6 +67,16 @@
 	text-align: center;
 }
 
+.audio-container .f7-icons {
+	font-size: 150px;
+    color: #007aff;
+    cursor: pointer;
+}
+
+.audio-list.audio_item {
+	padding: 0;
+}
+
 body {
 	font-size: 20px;
 	line-height: 1.85;
@@ -99,12 +109,6 @@ a.item-content {
 	padding: 50px 15px;
 }
 
-audio {
-	width: 95%;
-}
-.audio {
-	width: 100%;
-}
 li {
 	list-style-type: none;
 }
@@ -164,3 +168,114 @@ li {
 .padd-msg {
 	padding: 0 10px 0 30px;
 }
+
+/*for audio player*/
+
+	/* 	.flx-content {
+			display: flex;
+			justify-content: space-between;
+		}
+			
+		.jp-audio {
+			width: 80%;
+			margin: 0 auto;
+			background-color: transparent;
+			border: none;
+		}
+
+		.jp-audio .jp-progress {
+			position: static;
+		}
+		 	
+
+		.jp-interface {
+			background-color: transparent;
+		}
+
+
+		.jp-audio .jp-interface, 
+		.jp-audio-stream .jp-interface {
+			height: 300px;
+		}
+
+		.jp-audio .jp-controls {
+			width: 96%;
+			padding: 50px 2%;
+			margin: 0 auto;
+		}
+
+		.jp-controls-holder {
+			width: 100%;
+			top: 0;
+		}
+
+
+		.jp-controls button {
+			float: none;
+		}
+
+		.jp-play {
+			width: 150px;
+			height: 150px;
+			border-radius: 10em;
+			padding: 0;
+			margin: 0 auto;
+			background-color: rgba(54, 165, 218, 0.35);
+		}
+
+		.jp-audio .jp-type-single .jp-progress {
+			height: 14px;
+			border-radius: 10em;
+			width: 100%;
+		}
+			
+
+		.jp-play-bar {
+			border-radius: 10em;
+			background: rgba(54, 165, 218, 0.35);	
+		}
+
+		.jp-current-time, .jp-duration {
+			float: none;
+		} */
+	 	
+
+
+audio {
+	width: 95%;
+	margin: 50px auto
+}
+
+.audio-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+}
+		
+
+.play-btn {
+	position: relative;
+	cursor: pointer;
+	width: 150px;
+    height: 210px;
+}
+
+.play-btn::after, .toggle-btn::after {
+	content: 'play_round';
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: 'Framework7 Icons';
+	font-size: 150px;
+  color: #007aff;
+  cursor: pointer;
+
+}
+		
+.pause-btn::after {
+	content: 'pause_round';
+}
+
+	
