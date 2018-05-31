@@ -1,41 +1,4 @@
 @font-face {
-	font-family: 'Material Icons';
-	font-style: normal;
-	font-weight: 400;
-	src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
-	src: local('Material Icons'),
-			 local('MaterialIcons-Regular'),
-			 url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
-			 url(../fonts/MaterialIcons-Regular.woff) format('woff'),
-			 url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
-}
-
-.material-icons {
-	font-family: 'Material Icons';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 24px;  /* Preferred icon size */
-	display: inline-block;
-	line-height: 1;
-	text-transform: none;
-	letter-spacing: normal;
-	word-wrap: normal;
-	white-space: nowrap;
-	direction: ltr;
-
-	/* Support for all WebKit browsers. */
-	-webkit-font-smoothing: antialiased;
-	/* Support for Safari and Chrome. */
-	text-rendering: optimizeLegibility;
-
-	/* Support for Firefox. */
-	-moz-osx-font-smoothing: grayscale;
-
-	/* Support for IE. */
-	font-feature-settings: 'liga';
-}
-
-@font-face {
 	font-family: 'Framework7 Icons';
 	font-style: normal;
 	font-weight: 400;
@@ -67,15 +30,6 @@
 	text-align: center;
 }
 
-.audio-container .f7-icons {
-	font-size: 150px;
-    color: #007aff;
-    cursor: pointer;
-}
-
-.audio-list.audio_item {
-	padding: 0;
-}
 
 body {
 	font-size: 20px;
@@ -128,27 +82,6 @@ li {
 	padding: 0 30px; 
 }
 
-.var_02 .item-inner.item-inner-box {
-	color: #3e4f61;
-	font-size: 24px;
-	padding: 75px 15px;
-}
-
-.ios .var_02 .row .decoration {
-	border-radius: 7px;
-}
-
-.var_03 .item-inner.item-inner-box {
-	color: #3e4f61;
-	font-size: 26px;
-	padding: 100px 15px;
-}
-
-.ios .var_03 .row.decoration {
-	border-radius: 7px;
-}
-
-
 .ios .media-list .item-title.my-item-title {
 	color: #2b2b33;
 	white-space: normal;
@@ -156,12 +89,8 @@ li {
 	font-weight: 400;
 }
 
-.ios .paddingForMessage {
-	padding: 10px 0 0 50px;
-}
-
-.ios .list .nomber-message {
-	padding-left: 50px;
+.customize-item-subtitle {
+	padding-bottom: 8px;
 	font-weight: bold;
 }
 
@@ -169,77 +98,9 @@ li {
 	padding: 0 10px 0 30px;
 }
 
-/*for audio player*/
-
-	/* 	.flx-content {
-			display: flex;
-			justify-content: space-between;
-		}
-			
-		.jp-audio {
-			width: 80%;
-			margin: 0 auto;
-			background-color: transparent;
-			border: none;
-		}
-
-		.jp-audio .jp-progress {
-			position: static;
-		}
-		 	
-
-		.jp-interface {
-			background-color: transparent;
-		}
-
-
-		.jp-audio .jp-interface, 
-		.jp-audio-stream .jp-interface {
-			height: 300px;
-		}
-
-		.jp-audio .jp-controls {
-			width: 96%;
-			padding: 50px 2%;
-			margin: 0 auto;
-		}
-
-		.jp-controls-holder {
-			width: 100%;
-			top: 0;
-		}
-
-
-		.jp-controls button {
-			float: none;
-		}
-
-		.jp-play {
-			width: 150px;
-			height: 150px;
-			border-radius: 10em;
-			padding: 0;
-			margin: 0 auto;
-			background-color: rgba(54, 165, 218, 0.35);
-		}
-
-		.jp-audio .jp-type-single .jp-progress {
-			height: 14px;
-			border-radius: 10em;
-			width: 100%;
-		}
-			
-
-		.jp-play-bar {
-			border-radius: 10em;
-			background: rgba(54, 165, 218, 0.35);	
-		}
-
-		.jp-current-time, .jp-duration {
-			float: none;
-		} */
-	 	
-
+.padding-offset {
+	padding-left: 15px;
+}
 
 audio {
 	width: 95%;
@@ -253,13 +114,21 @@ audio {
 	width: 100%;
 
 }
-		
+.audio-container .f7-icons {
+	font-size: 150px;
+		color: #007aff;
+		cursor: pointer;
+}
 
+.audio-list.audio_item {
+	padding: 0;
+}
+		
 .play-btn {
 	position: relative;
 	cursor: pointer;
 	width: 150px;
-    height: 210px;
+	height: 210px;
 }
 
 .play-btn::after, .toggle-btn::after {
@@ -269,13 +138,10 @@ audio {
 	left: 0;
 	font-family: 'Framework7 Icons';
 	font-size: 150px;
-  color: #007aff;
-  cursor: pointer;
-
+	color: #007aff;
+	cursor: pointer;
 }
 		
 .pause-btn::after {
 	content: 'pause_round';
 }
-
-	
