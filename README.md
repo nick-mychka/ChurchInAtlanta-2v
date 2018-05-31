@@ -1,2 +1,2 @@
-# ChurchInAtlanta-2v
-ChurchInAtlanta-2v
+# Media portal for the Church in Atlanta
+Media portal for the Church in Atlanta based on framework7
