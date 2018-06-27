@@ -13,7 +13,131 @@ var routes = [
 		url: './pages/about.html',
 		name: 'about'
 	},
-
+	//spr 2018
+	{
+		path: '/msg-1-spr_18/',
+		url: './pages/2018/spr-2018/messages/msg-1-spr_18.html',
+		name: 'msg-1-spr_18'
+	},
+	{
+		path: '/msg-2-spr_18/',
+		url: './pages/2018/spr-2018/messages/msg-2-spr_18.html',
+		name: 'msg-2-spr_18'
+	},
+	{
+		path: '/msg-3-spr_18/',
+		url: './pages/2018/spr-2018/messages/msg-3-spr_18.html',
+		name: 'msg-3-spr_18'
+	},
+	{
+		path: '/msg-4-spr_18/',
+		url: './pages/2018/spr-2018/messages/msg-4-spr_18.html',
+		name: 'msg-4-spr_18'
+	},
+	//fall 2017
+	{
+		path: '/msg-1-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-1-fall_17.html',
+		name: 'msg-1-fall_17'
+	},
+	{
+		path: '/msg-2-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-2-fall_17.html',
+		name: 'msg-2-fall_17'
+	},
+	{
+		path: '/msg-3-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-3-fall_17.html',
+		name: 'msg-3-fall_17'
+	},
+	{
+		path: '/msg-4-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-4-fall_17.html',
+		name: 'msg-4-fall_17'
+	},
+	{
+		path: '/msg-5-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-5-fall_17.html',
+		name: 'msg-5-fall_17'
+	},
+	{
+		path: '/msg-6-fall_17/',
+		url: './pages/2017/fall-2017/messages/msg-6-fall_17.html',
+		name: 'msg-6-fall_17'
+	},
+	//spr 2017
+	{
+		path: '/msg-1-spr_17/',
+		url: './pages/2017/spr-2017/messages/msg-1-spr_17.html',
+		name: 'msg-1-spr_17'
+	},
+	{
+		path: '/msg-2-spr_17/',
+		url: './pages/2017/spr-2017/messages/msg-2-spr_17.html',
+		name: 'msg-2-spr_17'
+	},
+	{
+		path: '/msg-3-spr_17/',
+		url: './pages/2017/spr-2017/messages/msg-3-spr_17.html',
+		name: 'msg-3-spr_17'
+	},
+	{
+		path: '/msg-4-spr_17/',
+		url: './pages/2017/spr-2017/messages/msg-4-spr_17.html',
+		name: 'msg-4-spr_17'
+	},
+	//fall 2016
+	{
+		path: '/msg-1-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-1-fall_16.html',
+		name: 'msg-1-fall_16'
+	},
+	{
+		path: '/msg-2-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-2-fall_16.html',
+		name: 'msg-2-fall_16'
+	},
+	{
+		path: '/msg-3-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-3-fall_16.html',
+		name: 'msg-3-fall_16'
+	},
+	{
+		path: '/msg-4-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-4-fall_16.html',
+		name: 'msg-4-fall_16'
+	},
+	{
+		path: '/msg-5-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-5-fall_16.html',
+		name: 'msg-5-fall_16'
+	},
+	{
+		path: '/msg-6-fall_16/',
+		url: './pages/2016/fall-2016/messages/msg-6-fall_16.html',
+		name: 'msg-6-fall_16'
+	},
+	//spr 2016
+	{
+		path: '/msg-1-spr_16/',
+		url: './pages/2016/spr-2016/messages/msg-1-spr_16.html',
+		name: 'msg-1-spr_16'
+	},
+	{
+		path: '/msg-2-spr_16/',
+		url: './pages/2016/spr-2016/messages/msg-2-spr_16.html',
+		name: 'msg-2-spr_16'
+	},
+	{
+		path: '/msg-3-spr_16/',
+		url: './pages/2016/spr-2016/messages/msg-3-spr_16.html',
+		name: 'msg-3-spr_16'
+	},
+	{
+		path: '/msg-4-spr_16/',
+		url: './pages/2016/spr-2016/messages/msg-4-spr_16.html',
+		name: 'msg-4-spr_16'
+	},
 	//fall 2015
 	{
 		path: '/msg-1-fall_15/',
@@ -316,6 +440,21 @@ var routes = [
 
 	/* Conference pages*/
 	{
+		path: '/season-2018/',
+		url: './pages/2018/season-2018.html',
+		name: 'season-2018'
+	},
+	{
+		path: '/season-2017/',
+		url: './pages/2017/season-2017.html',
+		name: 'season-2017'
+	},
+	{
+		path: '/season-2016/',
+		url: './pages/2016/season-2016.html',
+		name: 'season-2016'
+	},
+	{
 		path: '/season-2015/',
 		url: './pages/2015/season-2015.html',
 		name: 'season-2015'
@@ -346,6 +485,31 @@ var routes = [
 		name: 'season-2010'
 	},
 		// Message pages
+		{
+		path: '/msg-s-2018/',
+		url: './pages/2018/spr-2018/msg-s-2018.html',
+		name: 'msg-s-2018'
+	},
+		{
+		path: '/msg-s-2017/',
+		url: './pages/2017/spr-2017/msg-s-2017.html',
+		name: 'msg-s-2017'
+	},
+	{
+		path: '/msg-f-2017/',
+		url: './pages/2017/fall-2017/msg-f-2017.html',
+		name: 'msg-f-2017'
+	},
+	{
+		path: '/msg-s-2016/',
+		url: './pages/2016/spr-2016/msg-s-2016.html',
+		name: 'msg-s-2016'
+	},
+	{
+		path: '/msg-f-2016/',
+		url: './pages/2016/fall-2016/msg-f-2016.html',
+		name: 'msg-f-2016'
+	},
 	{
 		path: '/msg-s-2015/',
 		url: './pages/2015/spr-2015/msg-s-2015.html',
